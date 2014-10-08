@@ -9,9 +9,9 @@ void setup()  {
 }
 
 // the loop routine runs over and over again forever:
-void loop()  { 
+void loop()  {
   // set the brightness of pin 9:
-  analogWrite(led, brightness);    
+  analogWrite(led, brightness);
 
   // change the brightness for next time through the loop:
   brightness = brightness + fadeAmount;
